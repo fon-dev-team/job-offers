@@ -9,7 +9,7 @@ public class JavaDeveloper extends JobOffer {
 
 	public String address = "Quintanavides, 15, 28050, Madrid";
 
-	private String email = "rrhh@fon.com";
+	private String email = "talent@fon.com";
 
 	public FonDevelopper getRecruit() {
 
@@ -22,6 +22,7 @@ public class JavaDeveloper extends JobOffer {
 		// Select criteria
 		String where = "Java & Spring = 'Strong' ";
 		where += " AND  Git           = 'medium' ";
+		where += " AND  experience    >= '2 years' ";
 		where += " AND (Hibernate   = 'bonus' ";
 		where += "  OR Linux        = 'bonus' ";
 		where += "  OR Unit Testing = 'bonus' ";
