@@ -1,5 +1,5 @@
 package com.fon.jobs;
 
-public class JobOffer {
+public abstract class JobOffer {
 
 }
