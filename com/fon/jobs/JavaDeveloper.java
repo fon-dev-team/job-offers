@@ -74,6 +74,12 @@ public class JavaDeveloper extends JobOffer {
 		return techs;
 	}
 
+	protected  boolean lunchHelp;
+
+	protected String salary;
+
+	protected String fun;
+
 	protected void setBenefits() {
 		this.lunchHelp = true;
 		this.salary = "negotiable";
