@@ -14,5 +14,5 @@ public abstract class Candidates {
 
     public abstract void limit(int limit);
 
-    public abstract FonDevelopper execute();
+    public abstract FonDeveloper execute();
 }

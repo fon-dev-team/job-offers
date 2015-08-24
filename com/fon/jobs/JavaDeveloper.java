@@ -11,10 +11,10 @@ public class JavaDeveloper extends JobOffer {
 
 	private String email = "talent@fon.com";
 
-	public FonDevelopper getRecruit(Candidates db) {
+	public FonDeveloper getRecruit(Candidates db) {
 
 		// What do we require?
-		db.select("JavaDevelopper");
+		db.select("JavaDeveloper");
 
 		// From where are we selecting?
 		db.from("PeopleWhoLoveDevelopment");
