@@ -11,7 +11,7 @@ public class JavaDeveloper extends JobOffer {
 
 	private String email = "talent@fon.com";
 
-	public FonDevelopper getRecruit() {
+	public FonDevelopper getRecruit(Candidates db) {
 
 		// What do we require?
 		db.select("JavaDevelopper");
