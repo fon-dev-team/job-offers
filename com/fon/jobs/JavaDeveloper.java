@@ -23,10 +23,11 @@ public class JavaDeveloper extends JobOffer {
 		String where = "Java & Spring = 'Strong' ";
 		where += " AND  Git           = 'medium' ";
 		where += " AND  experience    >= '2 years' ";
-		where += " AND (Hibernate   = 'bonus' ";
-		where += "  OR Linux        = 'bonus' ";
-		where += "  OR Unit Testing = 'bonus' ";
-		where += "  OR NoSql        = 'bonus')";
+		where += " AND  Unit Testing  = 'medium' ";
+		where += " AND (Hibernate = 'bonus' ";
+		where += "  OR Linux      = 'bonus' ";
+		where += "  OR TDD        = 'bonus' ";
+		where += "  OR NoSql      = 'bonus')";
 
 		db.where(where);
 
