@@ -27,7 +27,12 @@ public class JavaDeveloper extends JobOffer {
 		where += " AND (Hibernate = 'bonus' ";
 		where += "  OR Linux      = 'bonus' ";
 		where += "  OR TDD        = 'bonus' ";
-		where += "  OR NoSql      = 'bonus')";
+		where += "  OR NoSql      = 'bonus'";
+
+		where.replace(" & Spring = 'Strong'", " = 'SuperSaiyan' AND Spring = 'Not much'");
+		where.replace("TDD", "GTD");
+		where += "  OR Meteor = 'bonus')";
+
 
 		db.where(where);
 
@@ -37,6 +42,7 @@ public class JavaDeveloper extends JobOffer {
 		orderBy.add("hardWorking DESC");
 		orderBy.add("sociable DESC");
 		orderBy.add("party-people DESC");
+		orderBy.add("early-tech-adopter DESC");
 
 		db.orderBy(orderBy);
 
@@ -78,5 +84,7 @@ public class JavaDeveloper extends JobOffer {
 		this.lunchHelp = true;
 		this.salary = "negotiable";
 		this.fun = "guaranteed";
+		this.flexibleTiming = "maybe?";
+		this.petProjects = "any chance?";
 	}
 }
