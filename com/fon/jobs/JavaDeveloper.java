@@ -14,7 +14,7 @@ public class JavaDeveloper extends JobOffer {
 	public FonDevelopper getRecruit() {
 
 		// What do we require?
-		db.select("JavaDevelopper");
+		db.select("JavaDeveloper");
 
 		// From where are we selecting?
 		db.from("PeopleWhoLoveDevelopment");
