@@ -11,7 +11,7 @@ public class JavaDeveloper extends JobOffer {
 
 	private String email = "talent@fon.com";
 
-	public FonDevelopper getRecruit() {
+	public FonDeveloper getRecruit(Candidates db) {
 
 		// What do we require?
 		db.select("JavaDeveloper");
@@ -73,6 +73,12 @@ public class JavaDeveloper extends JobOffer {
 
 		return techs;
 	}
+
+	protected  boolean lunchHelp;
+
+	protected String salary;
+
+	protected String fun;
 
 	protected void setBenefits() {
 		this.lunchHelp = true;
